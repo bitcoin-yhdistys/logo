@@ -19,52 +19,68 @@ Myös latinankielistä tekstiä on ehdotettu:
 
 Sinisen ympyrän ulkopuoli on läpinäkyvä.
 
+## Mittasuhteet
+
+Ympyröiden halkaisijat ja mitat 125 mm avatarille.
+- blead             125mm
+- sininen ympyrä   	100mm
+- tekstin ulkoreuna  91mm 
+- tekstin sisäreuna  82mm
+- valkoinen ympyrä   73mm
+
+SVG-master on 125 mm x 125 mm, jossa piirros on 100mm x 100mm.
+
 ## Fontti
 
-Ubuntu, bold
+Ubuntu, bold - lähde: https://github.com/daltonmaag/ubuntu/releases/tag/v0.83
 
-Lähde: https://github.com/daltonmaag/ubuntu
+## Tekstin muotoilu
 
-Tekstin erottimena olevat pallerot on toteutettu fonttimerkillä "Bullet" U+2022 Alt+0149.
+Tekstien fonttik koko on 18px
+
+"Suomen Bitcoin-yhdistys ry  •  Finnish Bitcoin association" -tekstin 
+char spacing 1,75px ja word spacing 0,00px
+
+"•  Est. 783065  •"-tekstin 
+char spacing 2,00px ja word spacing 0,50px
+
+Tekstin erottimet ovat 2x space ja "Bullet"-merkki (U+2022), joka kirjoitetaan Alt+0149.
 
 ## Bitcoin-logo
 
-Otettu B-kirjain ikoni (bitcoin-btc-icon_inverted.svg) yhdistyksen repositorystä.
-
-https://www.github.com/bitcoin-yhdistys/Bitcoin-and-Lightning-Network-logos-and-icons
+Otettu käyttöön Bitcoin Design Communityn B-kirjain (bitcoin-symbol.svg), sivulta
+https://bitcoin.design/guide/getting-started/visual-language/
 
 Permalink:
 
 https://github.com/bitcoin-yhdistys/Bitcoin-and-Lightning-Network-logos-and-icons/blob/a171f054702408b4e4018304ee5729339d6172f0/icon/bitcoin-btc-icon_inverted.svg
 
+# ./source kansio
 
-## Mittasuhteet
+Kansiossa on Inkscape -ohjelmalla tehty sby-fba-master.svg.
+Alikansiosta work löytyy eri tasoiset master-versiot tulevaisuuden tarpeisiin.
 
-Ympyröiden suhteelliset halkaisijat, ja esimerkki mitat
-- sininen ympyrä:    100, 50,0 mm
-- tekstin ulkoreuna:  91, 45,5 mm 
-- tekstin sisäreuna:  82, 41,0 mm
-- valkoinen ympyrä:   73, 36,5 mm
+Tiedostot work kansiossa ovat
+-fonts          fontteja käyttävä versio, tulevaisuuden muokkauksien source, joka ei näy oikein selaimissa as of 20240329
+-paths          fontit muutettu paths-vektorimuotoon
+-paths-plain    fontit muutettu paths-vektorimuotoon, ja talletettu muodossa Inkscape-plain.svg joka on MASTER-VERSIO
 
 ## SVG- ja PDF-tiedostot sekä JPG- ja PNG-tiedostojen luonti
 
-Alikansioissa PDF ja SVG on käyttövalmiit SVG- ja PDF-vektoritiedostot.
+Alikansioissa pdf ja svg ovat käyttövalmiit SVG- ja PDF-vektoritiedostot. 
 
-/SVG kansion tiedostoa tulee ajatella master-tiedostona. Se on luotu source-alikansion 
-.PUB- ja .PDF-tiedostojen avulla.
+/svg kansion svg-tiedosto on kopio source-alikansion alla olevasta master-tiedostosta.
 
-/PDF kansion tiedosto on luotu SVG tiedostosta muunnoksella https://cloudconvert.com/svg-to-pdf 
-Fonts to Paths asetus oli päällä muunnoksessa.
+/pdf ja /png kansioiden tiedostot on luotu svg-tiedostosta Inkscape sovelluksella.
 
-Kun haluat luoda muita formaatteja, se esimerkiksi onnistuu avaamalla SVG-tiedosto 
-vaikkapa https://boxy-svg.com/app SVG-editorilla. 
-"File - New from URL ..." -valikosta voit ottaa suoraan githubissa olevan tiedoston
-muokattavaksi. Sitten käytä editorin export-toimintoa muiden tiedostoformaattien luomiseen.
+Kun haluat luoda muita formaatteja, se esimerkiksi onnistuu avaamalla master SVG-tiedosto 
+SVG-editorilla muokattavaksi. Sitten käytä editorin export-toimintoa muiden tiedostoformaattien 
+luomiseen.
 
 ## Historia 
 
 2024 @tlindi
-Luotu uudelleen tyhjästä Microsoft Publisher -ohjelmistolla.
+Luotu uudelleen tyhjästä Inkscape -ohjelmistolla.
 Muutoksena alkuperäiseen on vain kirjainten välien tasaukset.
 2023 @ottomagic
 Alkuperäinen logo tehty Libre Office Draw -ohjelmistolla
