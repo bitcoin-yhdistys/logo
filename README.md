@@ -48,18 +48,17 @@ Ympyröiden suhteelliset halkaisijat, ja esimerkki mitat
 
 ## SVG- ja PDF-tiedostot sekä JPG- ja PNG-tiedostojen luonti
 
-Alikansioissa PDF ja SVG on käyttövalmiit SVG- ja PDF-vektoritiedostot.
+Alikansioissa pdf ja svg ovat käyttövalmiit SVG- ja PDF-vektoritiedostot.
+png-alikansioissa on muuhun käyttöön sopivat kuvatiedostot.
 
-/SVG kansion tiedostoa tulee ajatella master-tiedostona. Se on luotu source-alikansion 
-.PUB- ja .PDF-tiedostojen avulla.
+/svg kansion svg-tiedosto on luotu source-alikansion alla work-kansiossa olevien 
+välivaiheiden kautta, aina .pub tiedostosta lähtien. sourcessa on ns master.svg.
 
-/PDF kansion tiedosto on luotu SVG tiedostosta muunnoksella https://cloudconvert.com/svg-to-pdf 
-Fonts to Paths asetus oli päällä muunnoksessa.
+/pdf ja /png kansioiden tiedostot on luotu svg-tiedostosta Inkscape sovelluksella.
 
 Kun haluat luoda muita formaatteja, se esimerkiksi onnistuu avaamalla SVG-tiedosto 
-vaikkapa https://boxy-svg.com/app SVG-editorilla. 
-"File - New from URL ..." -valikosta voit ottaa suoraan githubissa olevan tiedoston
-muokattavaksi. Sitten käytä editorin export-toimintoa muiden tiedostoformaattien luomiseen.
+SVG-editorilla minne voit ottaa suoraan githubissa olevan tiedoston muokattavaksi. 
+Sitten käytä editorin export-toimintoa muiden tiedostoformaattien luomiseen.
 
 ## Historia 
 
