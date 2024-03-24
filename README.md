@@ -1,16 +1,21 @@
 # Yhdistyksen logo
 
-Virallisen logon lisäksi epävirallisemmissa yhteyksissä voi alla olevien värien, fonttien yms. puitteissa käyttää
-muitakin tekstejä, kuten yhdistyksen nimi pelkästään suomeksi, pelkästään englanniksi tai ilman perustamislohkoa.
-Myös latinankielistä tekstiä on ehdotettu: "Societas Bitcoin Finniae. Vires in numeris. Codex 783065".
+Logo on jatkokehitelmä European Bitcoiners logosta, josta lisää credits.md tiedostossa.
+
+Tämän virallisen logon lisäksi epävirallisemmissa yhteyksissä voi alla olevien 
+värien, fonttien yms. puitteissa käyttää muitakin tekstejä, kuten yhdistyksen 
+nimi pelkästään suomeksi, pelkästään englanniksi tai ilman perustamislohkoa.
+
+Myös latinankielistä tekstiä on ehdotettu: 
+ "Societas Bitcoin Finniae. Vires in numeris. Codex 783065".
 
 ## Värit
 
-| Väri      | RGB     | Selite                                      |
-|-----------|---------|---------------------------------------------|
-| Sininen   | #002f6c | Suomen lipun sininen                        |
-| Oranssi   | #f7931a | Bitcoin-logo                                |
-| Valkoinen | #fafafa | Ei täysin valkoinen. Helpottaa painatuksia. |
+| Väri      | RGB     |RGB desimaali| Selite                                      |
+|-----------|---------|-------------|---------------------------------------------|
+| Sininen   | #002f6c |    0,47,108 | Suomen lipun sininen                        |
+| Oranssi   | #f7931a |  247,147,26 | Bitcoin-logo                                |
+| Valkoinen | #fafafa | 250,250,250 | Ei täysin valkoinen. Helpottaa painatuksia. |
 
 Sinisen ympyrän ulkopuoli on läpinäkyvä.
 
@@ -20,23 +25,45 @@ Ubuntu, bold
 
 Lähde: https://github.com/daltonmaag/ubuntu
 
-Tekstin erottimena olevat pallerot on toteutettu erillisinä ympyröinä.
+Tekstin erottimena olevat pallerot on toteutettu fonttimerkillä "Bullet" U+2022 Alt+0149.
 
 ## Bitcoin-logo
 
-Ladattu vektorikuva osoitteesta https://cryptologos.cc/bitcoin ja muokattu kääntämällä värit ja poistamalla ympyrä.
-Lisäksi lähdetiedostossa olevan B:n vasemmassa kyljessä oleva pieni lovi (näkyy kun suurentaa riittävästi)
-on korjattu.
+Otettu B-kirjain ikoni (bitcoin-btc-icon_inverted.svg) yhdistyksen repositorystä.
 
-Lähdetiedosto on public domainissa osoitteessa listatun historiatiedon mukaan.
+https://www.github.com/bitcoin-yhdistys/Bitcoin-and-Lightning-Network-logos-and-icons
+
+Permalink:
+
+https://github.com/bitcoin-yhdistys/Bitcoin-and-Lightning-Network-logos-and-icons/blob/a171f054702408b4e4018304ee5729339d6172f0/icon/bitcoin-btc-icon_inverted.svg
+
 
 ## Mittasuhteet
 
-Ympyröiden suhteelliset halkaisijat:
-- sininen ympyrä: 100
-- tekstin ulkoreuna: 91
-- tekstin sisäreuna: 82
-- valkoinen ympyrä: 73
+Ympyröiden suhteelliset halkaisijat, ja esimerkki mitat
+- sininen ympyrä:    100, 50,0 mm
+- tekstin ulkoreuna:  91, 45,5 mm 
+- tekstin sisäreuna:  82, 41,0 mm
+- valkoinen ympyrä:   73, 36,5 mm
 
-Poista tekstin ulko- ja sisäreunan apuympyrät ennen kuvatiedoston luomista.
+## SVG- ja PDF-tiedostot sekä JPG- ja PNG-tiedostojen luonti
 
+Alikansioissa pdf ja svg ovat käyttövalmiit SVG- ja PDF-vektoritiedostot.
+png-alikansioissa on muuhun käyttöön sopivat kuvatiedostot.
+
+/svg kansion svg-tiedosto on luotu source-alikansion alla work-kansiossa olevien 
+välivaiheiden kautta, aina .pub tiedostosta lähtien. sourcessa on ns master.svg.
+
+/pdf ja /png kansioiden tiedostot on luotu svg-tiedostosta Inkscape sovelluksella.
+
+Kun haluat luoda muita formaatteja, se esimerkiksi onnistuu avaamalla SVG-tiedosto 
+SVG-editorilla minne voit ottaa suoraan githubissa olevan tiedoston muokattavaksi. 
+Sitten käytä editorin export-toimintoa muiden tiedostoformaattien luomiseen.
+
+## Historia 
+
+2024 @tlindi
+Luotu uudelleen tyhjästä Microsoft Publisher -ohjelmistolla.
+Muutoksena alkuperäiseen on vain kirjainten välien tasaukset.
+2023 @ottomagic
+Alkuperäinen logo tehty Libre Office Draw -ohjelmistolla
