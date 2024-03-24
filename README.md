@@ -16,7 +16,6 @@ Myös latinankielistä tekstiä on ehdotettu:
 | Sininen   |  002f6c  | 24,68,126   | Suomen lipun sininen                        |
 | Oranssi   |  f7931a  | 247,147,26  | Bitcoin-logo oranssi                        |
 | Valkoinen |  fafafa  | 250,250,250 | Ei täysin valkoinen. Helpottaa painatuksia. |     
-|           |          |             |  |
 
 Sinisen ympyrän ulkopuoli on läpinäkyvä.
 
