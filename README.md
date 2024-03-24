@@ -3,7 +3,7 @@
 Logo on jatkokehitelmä European Bitcoiners logosta, josta lisää credits.md tiedostossa.
 
 Tämän virallisen logon lisäksi epävirallisemmissa yhteyksissä voi alla olevien 
-värien, fonttien yms. puitteissa käyttää muitakin tekstejä, kuten  yhdistyksen 
+värien, fonttien yms. puitteissa käyttää muitakin tekstejä, kuten yhdistyksen 
 nimi pelkästään suomeksi, pelkästään englanniksi tai ilman perustamislohkoa.
 
 Myös latinankielistä tekstiä on ehdotettu: 
@@ -11,11 +11,11 @@ Myös latinankielistä tekstiä on ehdotettu:
 
 ## Värit
 
-| väri      | hex RGB  |desimaali RGB| selite               |
-|-----------|----------|-------------|----------------------|
-| Sininen   | #002f6c  |   24,68,126 | Suomen lipun sininen |
-| Oranssi   | #f7931a  |  247,147,26 | Bitcoin-logo oranssi |
-| Valkoinen | #fafafa  | 250,250,250 | Ei täysin valkoinen. Helpottaa painatuksia. |
+| Väri      | RGB     |RGB desimaali| Selite                                      |
+|-----------|---------|-------------|---------------------------------------------|
+| Sininen   | #002f6c |    0,47,108 | Suomen lipun sininen                        |
+| Oranssi   | #f7931a |  247,147,26 | Bitcoin-logo                                |
+| Valkoinen | #fafafa | 250,250,250 | Ei täysin valkoinen. Helpottaa painatuksia. |
 
 Sinisen ympyrän ulkopuoli on läpinäkyvä.
 
@@ -29,8 +29,14 @@ Tekstin erottimena olevat pallerot on toteutettu fonttimerkillä "Bullet" U+2022
 
 ## Bitcoin-logo
 
-Otettu B-kirjain ikoni (bitcoin-btc-icon_inverted.svg) 
-https://www.github.com/bitcoin-yhdistys/Bitcoin-and-Lightning-Network-logos-and-icons\icon
+Otettu B-kirjain ikoni (bitcoin-btc-icon_inverted.svg) yhdistyksen repositorystä.
+
+https://www.github.com/bitcoin-yhdistys/Bitcoin-and-Lightning-Network-logos-and-icons
+
+Permalink:
+
+https://github.com/bitcoin-yhdistys/Bitcoin-and-Lightning-Network-logos-and-icons/blob/a171f054702408b4e4018304ee5729339d6172f0/icon/bitcoin-btc-icon_inverted.svg
+
 
 ## Mittasuhteet
 
@@ -57,7 +63,8 @@ muokattavaksi. Sitten käytä editorin export-toimintoa muiden tiedostoformaatti
 
 ## Historia 
 
-Tämä version on luotu uudelleen tyhjästä Microsoft Publisher -ohjelmistolla,
-edellisen Open Office Draw version muotoilun mukaiseksi.
-Publisher (.pub) julkaistusta viety .pdf vektoritiedostosto, josta sitten 
-muokattu .svg-tiedosto https://boxy-svg.com/ SVG-editorilla.
+2024 @tlindi
+Luotu uudelleen tyhjästä Microsoft Publisher -ohjelmistolla.
+Muutoksena alkuperäiseen on vain kirjainten välien tasaukset.
+2023 @ottomagic
+Alkuperäinen logo tehty Libre Office Draw -ohjelmistolla
