@@ -7,7 +7,7 @@ värien, fonttien yms. puitteissa käyttää muitakin tekstejä, kuten yhdistyks
 nimi pelkästään suomeksi, pelkästään englanniksi tai ilman perustamislohkoa.
 
 Myös latinankielistä tekstiä on ehdotettu: 
- "Societas Bitcoin Finniae. Vires in numeris. Codex 783065".
+"Societas Bitcoin Finniae. Vires in numeris. Codex 783065".
 
 ## Värit
 
@@ -36,9 +36,9 @@ Ubuntu, bold - lähde: https://github.com/daltonmaag/ubuntu/releases/tag/v0.83
 
 ## Tekstin muotoilu
 
-Tekstien fonttik koko on 18px
+Tekstien fonttikoko on 18px
 
-"Suomen Bitcoin-yhdistys ry  •  Finnish Bitcoin association" -tekstin 
+"Suomen Bitcoin-yhdistys ry  •  Finnish Bitcoin Association" -tekstin 
 char spacing 1,75px ja word spacing 0,00px
 
 "•  Est. 783065  •"-tekstin 
